@@ -1,0 +1,7 @@
+L=float(input('Forneça o comprimento do fio:'))
+P=float(input('Forneça a força peso:'))
+m=float(input('Forneça a massa:'))
+g=(P)/(m)
+T=(2*3.14*((L)/(g))**(1/2))
+print(f"A aceleracao da gravidade é {g:.03f}")
+print(f"O período do pêndulo é {T:.03f}")
